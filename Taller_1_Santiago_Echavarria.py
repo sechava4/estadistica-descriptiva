@@ -35,7 +35,6 @@ if __name__ == '__main__':
     fp = p/len(df['datosPablo.X1'])
     logX3 = np.log(np.sort(df['datosPablo.X3'].to_numpy()))
 
-
     fig = go.Figure(data=go.Scatter(x=logX3, y=fp, mode='markers'))
 
     fig.show()
@@ -73,4 +72,4 @@ if __name__ == '__main__':
 
     fig1.show()
     fig2.show()
-    
+
