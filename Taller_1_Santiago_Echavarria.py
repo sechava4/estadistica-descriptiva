@@ -29,7 +29,7 @@ if __name__ == '__main__':
                                  desc_datosPabloX3, desc_datosPabloX4, desc_datosPabloX5, desc_datosPabloY],
                            columns=cols, index=incides)
 
-    resumen.to_excel('Resumen.xls')
+    # resumen.to_excel('Resumen.xls')
 
     p = np.arange(len(df['datosPablo.X1']))
     fp = p/len(df['datosPablo.X1'])
